@@ -26,6 +26,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.remeke.item.HelldshardItem;
 import net.mcreator.remeke.RemekeModElements;
 
 import java.util.Random;
@@ -57,7 +58,7 @@ public class HelldoreBlock extends RemekeModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(HelldshardItem.block, (int) (1)));
 		}
 	}
 	@Override
