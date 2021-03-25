@@ -71,6 +71,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helld_luk"
+    },
+    {
+      "name": "Helldore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helldore"
     }
   ],
   "variable_elements": [],
@@ -78,6 +87,7 @@
   "language_map": {
     "en_us": {
       "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
+      "block.remeke.helldore": "Руда хеллдериума",
       "item.remeke.helld_luk": "Лук из хеллдериума",
       "itemGroup.tabtab_helld": "Hellderium",
       "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
