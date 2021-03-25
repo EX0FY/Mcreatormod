@@ -2,14 +2,14 @@ modLoader="javafml"
 loaderVersion="[31,)"
 
 [[mods]]
-modId="grandcraft"
-version="0.1"
-displayName="GrandCraft"
+modId="remeke"
+version="1.0.0"
+displayName="Remeke"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="ExoFy, Rukolom"
 
-[[dependencies.grandcraft]]
+[[dependencies.remeke]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

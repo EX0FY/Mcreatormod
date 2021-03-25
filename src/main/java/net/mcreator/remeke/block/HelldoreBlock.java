@@ -27,17 +27,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.remeke.item.HelldshardItem;
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@GrandcraftModElements.ModElement.Tag
-public class HelldoreBlock extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helldore")
+@RemekeModElements.ModElement.Tag
+public class HelldoreBlock extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:helldore")
 	public static final Block block = null;
-	public HelldoreBlock(GrandcraftModElements instance) {
+	public HelldoreBlock(RemekeModElements instance) {
 		super(instance, 8);
 	}
 

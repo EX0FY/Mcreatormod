@@ -13,15 +13,15 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.remeke.itemgroup.TabHelldItemGroup;
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
 import java.util.List;
 
-@GrandcraftModElements.ModElement.Tag
-public class HelldPlakaItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helld_plaka")
+@RemekeModElements.ModElement.Tag
+public class HelldPlakaItem extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:helld_plaka")
 	public static final Item block = null;
-	public HelldPlakaItem(GrandcraftModElements instance) {
+	public HelldPlakaItem(RemekeModElements instance) {
 		super(instance, 4);
 	}
 

@@ -27,17 +27,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.remeke.itemgroup.TabHelldItemGroup;
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@GrandcraftModElements.ModElement.Tag
-public class EnderiumoreBlock extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:enderiumore")
+@RemekeModElements.ModElement.Tag
+public class EnderiumoreBlock extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:enderiumore")
 	public static final Block block = null;
-	public EnderiumoreBlock(GrandcraftModElements instance) {
+	public EnderiumoreBlock(RemekeModElements instance) {
 		super(instance, 12);
 	}
 

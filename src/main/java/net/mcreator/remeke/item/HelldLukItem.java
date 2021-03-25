@@ -38,18 +38,18 @@ import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.remeke.itemgroup.TabHelldItemGroup;
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
 import java.util.Random;
 import java.util.List;
 
-@GrandcraftModElements.ModElement.Tag
-public class HelldLukItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helld_luk")
+@RemekeModElements.ModElement.Tag
+public class HelldLukItem extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:helld_luk")
 	public static final Item block = null;
-	@ObjectHolder("grandcraft:entitybullethelld_luk")
+	@ObjectHolder("remeke:entitybullethelld_luk")
 	public static final EntityType arrow = null;
-	public HelldLukItem(GrandcraftModElements instance) {
+	public HelldLukItem(RemekeModElements instance) {
 		super(instance, 7);
 	}
 

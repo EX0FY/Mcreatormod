@@ -1,5 +1,5 @@
 {
-  "parent": "grandcraft:block/helldore",
+  "parent": "remeke:block/helldore",
   "display": {
     "thirdperson": {
       "rotation": [

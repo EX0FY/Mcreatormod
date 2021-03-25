@@ -131,18 +131,20 @@
       "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
       "advancements.helldoredostizhenie.title": "Красный осколок!",
       "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
+      "item.remeke.enderiumingot": "Слиток Эндериума",
       "item.remeke.helldshard": "Осколок хеллдериума",
       "item.grandcraft.helld_luk": "Лук из хеллдериума",
       "item.grandcraft.enderiumingot": "Слиток Эндериума",
       "block.grandcraft.helldore": "Руда хеллдериума",
       "block.grandcraft.enderiumore": "Руда эндериума",
+      "block.remeke.enderiumore": "Руда эндериума",
       "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
     }
   },
   "workspaceSettings": {
-    "modid": "grandcraft",
-    "modName": "GrandCraft",
-    "version": "0.1",
+    "modid": "remeke",
+    "modName": "Remeke",
+    "version": "1.0.0",
     "author": "ExoFy, Rukolom",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,

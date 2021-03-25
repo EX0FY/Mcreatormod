@@ -16,17 +16,17 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.remeke.procedures.HelldRapiraprocedureProcedure;
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 
-@GrandcraftModElements.ModElement.Tag
-public class HelldRapiraItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helld_rapira")
+@RemekeModElements.ModElement.Tag
+public class HelldRapiraItem extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:helld_rapira")
 	public static final Item block = null;
-	public HelldRapiraItem(GrandcraftModElements instance) {
+	public HelldRapiraItem(RemekeModElements instance) {
 		super(instance, 5);
 	}
 

@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
-@GrandcraftModElements.ModElement.Tag
-public class EnderiumingotItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:enderiumingot")
+@RemekeModElements.ModElement.Tag
+public class EnderiumingotItem extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:enderiumingot")
 	public static final Item block = null;
-	public EnderiumingotItem(GrandcraftModElements instance) {
+	public EnderiumingotItem(RemekeModElements instance) {
 		super(instance, 11);
 	}
 

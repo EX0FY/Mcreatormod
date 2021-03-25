@@ -1,12 +1,12 @@
 {
-  "group": "grandcraft",
+  "group": "remeke",
   "type": "minecraft:smelting",
   "experience": 1,
   "cookingtime": 200,
   "ingredient": {
-    "item": "grandcraft:enderiumore"
+    "item": "remeke:enderiumore"
   },
   "result": {
-    "item": "grandcraft:enderiumingot"
+    "item": "remeke:enderiumingot"
   }
 }

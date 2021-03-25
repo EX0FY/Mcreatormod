@@ -8,11 +8,11 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
-@GrandcraftModElements.ModElement.Tag
-public class TabHelldItemGroup extends GrandcraftModElements.ModElement {
-	public TabHelldItemGroup(GrandcraftModElements instance) {
+@RemekeModElements.ModElement.Tag
+public class TabHelldItemGroup extends RemekeModElements.ModElement {
+	public TabHelldItemGroup(RemekeModElements instance) {
 		super(instance, 3);
 	}
 

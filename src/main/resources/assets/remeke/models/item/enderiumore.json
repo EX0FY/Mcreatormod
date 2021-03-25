@@ -1,5 +1,5 @@
 {
-  "parent": "grandcraft:block/enderiumore",
+  "parent": "remeke:block/enderiumore",
   "display": {
     "thirdperson": {
       "rotation": [

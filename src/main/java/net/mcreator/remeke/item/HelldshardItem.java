@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.remeke.GrandcraftModElements;
+import net.mcreator.remeke.RemekeModElements;
 
-@GrandcraftModElements.ModElement.Tag
-public class HelldshardItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helldshard")
+@RemekeModElements.ModElement.Tag
+public class HelldshardItem extends RemekeModElements.ModElement {
+	@ObjectHolder("remeke:helldshard")
 	public static final Item block = null;
-	public HelldshardItem(GrandcraftModElements instance) {
+	public HelldshardItem(RemekeModElements instance) {
 		super(instance, 9);
 	}
 
