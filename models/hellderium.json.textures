@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "rapira2",
+        "missing": "rapira2"
+      },
+      "name": "default"
+    }
+  }
+}
