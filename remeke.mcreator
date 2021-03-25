@@ -2,15 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Rubypicture",
-      "type": "painting",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rubypicture"
-    },
-    {
       "name": "HelldShark",
       "type": "painting",
       "sortid": 2,
@@ -89,6 +80,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helldshard"
+    },
+    {
+      "name": "Helldoredostizhenie",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helldoredostizhenie"
     }
   ],
   "variable_elements": [],
@@ -100,7 +100,9 @@
       "item.remeke.helldshard": "Осколок хеллдериума",
       "item.remeke.helld_luk": "Лук из хеллдериума",
       "itemGroup.tabtab_helld": "Hellderium",
-      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
+      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
+      "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
+      "advancements.helldoredostizhenie.title": "Красный осколок!"
     }
   },
   "workspaceSettings": {

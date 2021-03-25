@@ -4,5 +4,7 @@
   "item.remeke.helldshard": "Осколок хеллдериума",
   "item.remeke.helld_luk": "Лук из хеллдериума",
   "itemGroup.tabtab_helld": "Hellderium",
-  "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
+  "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
+  "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
+  "advancements.helldoredostizhenie.title": "Красный осколок!"
 }
