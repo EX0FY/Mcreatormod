@@ -36,12 +36,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helld_plaka"
+    },
+    {
+      "name": "HelldRapira",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helld_rapira"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
       "itemGroup.tabtab_helld": "Hellderium",
       "item.remeke.helld_plaka": "Helld Plaka"
     }
