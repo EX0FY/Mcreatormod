@@ -18,12 +18,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helld_shark"
+    },
+    {
+      "name": "TabHelld",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_helld"
+    },
+    {
+      "name": "HelldPlaka",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helld_plaka"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabtab_helld": "Hellderium",
+      "item.remeke.helld_plaka": "Helld Plaka"
+    }
   },
   "workspaceSettings": {
     "modid": "remeke",
