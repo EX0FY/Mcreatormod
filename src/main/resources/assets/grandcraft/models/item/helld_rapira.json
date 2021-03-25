@@ -1,0 +1,8 @@
+{
+  "parent": "grandcraft:custom/hellderium",
+  "textures": {
+    "1": "grandcraft:blocks/rapira2",
+    "missing": "grandcraft:blocks/rapira2",
+    "particle": "grandcraft:items/rapira2"
+  }
+}

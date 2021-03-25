@@ -1,8 +1,0 @@
-{
-  "parent": "remeke:custom/hellderium",
-  "textures": {
-    "1": "remeke:blocks/rapira2",
-    "missing": "remeke:blocks/rapira2",
-    "particle": "remeke:items/rapira2"
-  }
-}

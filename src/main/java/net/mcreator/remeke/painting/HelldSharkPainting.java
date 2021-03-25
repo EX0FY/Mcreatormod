@@ -7,11 +7,11 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.entity.item.PaintingType;
 
-import net.mcreator.remeke.RemekeModElements;
+import net.mcreator.remeke.GrandcraftModElements;
 
-@RemekeModElements.ModElement.Tag
-public class HelldSharkPainting extends RemekeModElements.ModElement {
-	public HelldSharkPainting(RemekeModElements instance) {
+@GrandcraftModElements.ModElement.Tag
+public class HelldSharkPainting extends GrandcraftModElements.ModElement {
+	public HelldSharkPainting(GrandcraftModElements instance) {
 		super(instance, 2);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

@@ -13,13 +13,13 @@ import net.minecraft.entity.monster.CreeperEntity;
 import net.minecraft.entity.boss.dragon.EnderDragonEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.remeke.RemekeModElements;
+import net.mcreator.remeke.GrandcraftModElements;
 
 import java.util.Map;
 
-@RemekeModElements.ModElement.Tag
-public class HelldRapiraprocedureProcedure extends RemekeModElements.ModElement {
-	public HelldRapiraprocedureProcedure(RemekeModElements instance) {
+@GrandcraftModElements.ModElement.Tag
+public class HelldRapiraprocedureProcedure extends GrandcraftModElements.ModElement {
+	public HelldRapiraprocedureProcedure(GrandcraftModElements instance) {
 		super(instance, 6);
 	}
 

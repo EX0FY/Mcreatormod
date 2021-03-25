@@ -89,6 +89,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helldoredostizhenie"
+    },
+    {
+      "name": "Enderiumingot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderiumingot"
+    },
+    {
+      "name": "Enderiumore",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderiumore"
+    },
+    {
+      "name": "EnderiumIngotrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderium_ingotrecipe"
     }
   ],
   "variable_elements": [],
@@ -97,19 +124,26 @@
     "en_us": {
       "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
       "block.remeke.helldore": "Руда хеллдериума",
-      "item.remeke.helldshard": "Осколок хеллдериума",
+      "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
       "item.remeke.helld_luk": "Лук из хеллдериума",
+      "item.grandcraft.helldshard": "Осколок хеллдериума",
       "itemGroup.tabtab_helld": "Hellderium",
-      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
       "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
-      "advancements.helldoredostizhenie.title": "Красный осколок!"
+      "advancements.helldoredostizhenie.title": "Красный осколок!",
+      "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
+      "item.remeke.helldshard": "Осколок хеллдериума",
+      "item.grandcraft.helld_luk": "Лук из хеллдериума",
+      "item.grandcraft.enderiumingot": "Слиток Эндериума",
+      "block.grandcraft.helldore": "Руда хеллдериума",
+      "block.grandcraft.enderiumore": "Руда эндериума",
+      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
     }
   },
   "workspaceSettings": {
-    "modid": "remeke",
-    "modName": "Remek",
-    "version": "1.0.0",
-    "author": "sitni, MCreator",
+    "modid": "grandcraft",
+    "modName": "GrandCraft",
+    "version": "0.1",
+    "author": "ExoFy, Rukolom",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

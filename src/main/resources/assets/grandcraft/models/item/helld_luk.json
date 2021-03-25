@@ -1,0 +1,10 @@
+{
+  "parent": "grandcraft:custom/luk",
+  "textures": {
+    "1": "grandcraft:blocks/bow_standby-export",
+    "2": "grandcraft:blocks/bow_standby-export",
+    "3": "grandcraft:blocks/bow_standby-export",
+    "missing": "grandcraft:blocks/act34_hud_hand_scout",
+    "particle": "grandcraft:items/bow_standby-export"
+  }
+}

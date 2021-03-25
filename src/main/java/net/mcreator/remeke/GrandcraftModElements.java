@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class RemekeModElements {
+public class GrandcraftModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
@@ -46,22 +46,22 @@ public class RemekeModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public RemekeModElements() {
+	public GrandcraftModElements() {
 		try {
-			ModFileScanData modFileInfo = ModList.get().getModFileById("remeke").getFile().getScanResult();
+			ModFileScanData modFileInfo = ModList.get().getModFileById("grandcraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
 			for (ModFileScanData.AnnotationData annotationData : annotations) {
 				if (annotationData.getAnnotationType().getClassName().equals(ModElement.Tag.class.getName())) {
 					Class<?> clazz = Class.forName(annotationData.getClassType().getClassName());
-					if (clazz.getSuperclass() == RemekeModElements.ModElement.class)
-						elements.add((RemekeModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+					if (clazz.getSuperclass() == GrandcraftModElements.ModElement.class)
+						elements.add((GrandcraftModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(RemekeModElements.ModElement::initElements);
+		elements.forEach(GrandcraftModElements.ModElement::initElements);
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
@@ -71,7 +71,7 @@ public class RemekeModElements {
 	private int messageID = 0;
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		RemekeMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
+		GrandcraftMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
 
@@ -102,9 +102,9 @@ public class RemekeModElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final RemekeModElements elements;
+		protected final GrandcraftModElements elements;
 		protected final int sortid;
-		public ModElement(RemekeModElements elements, int sortid) {
+		public ModElement(GrandcraftModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

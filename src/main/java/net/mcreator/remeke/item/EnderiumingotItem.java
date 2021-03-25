@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.remeke.GrandcraftModElements;
 
 @GrandcraftModElements.ModElement.Tag
-public class HelldshardItem extends GrandcraftModElements.ModElement {
-	@ObjectHolder("grandcraft:helldshard")
+public class EnderiumingotItem extends GrandcraftModElements.ModElement {
+	@ObjectHolder("grandcraft:enderiumingot")
 	public static final Item block = null;
-	public HelldshardItem(GrandcraftModElements instance) {
-		super(instance, 9);
+	public EnderiumingotItem(GrandcraftModElements instance) {
+		super(instance, 11);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class HelldshardItem extends GrandcraftModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("helldshard");
+			setRegistryName("enderiumingot");
 		}
 
 		@Override
