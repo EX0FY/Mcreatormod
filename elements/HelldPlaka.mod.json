@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "blaze_rod-export",
     "customModelName": "Normal",
-    "name": "Helld Plaka",
-    "rarity": "COMMON",
+    "name": "Палка из хеллдериума(железа)",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:TabHelld"
     },
     "stackSize": 64,
     "enchantability": 0,

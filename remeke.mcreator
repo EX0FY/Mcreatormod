@@ -62,6 +62,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "HelldLuk",
+      "type": "gun",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helld_luk"
     }
   ],
   "variable_elements": [],
@@ -69,8 +78,9 @@
   "language_map": {
     "en_us": {
       "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
+      "item.remeke.helld_luk": "Лук из хеллдериума",
       "itemGroup.tabtab_helld": "Hellderium",
-      "item.remeke.helld_plaka": "Helld Plaka"
+      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
     }
   },
   "workspaceSettings": {

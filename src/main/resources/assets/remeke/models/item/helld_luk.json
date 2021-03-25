@@ -1,0 +1,10 @@
+{
+  "parent": "remeke:custom/luk",
+  "textures": {
+    "1": "remeke:blocks/bow_standby-export",
+    "2": "remeke:blocks/bow_standby-export",
+    "3": "remeke:blocks/bow_standby-export",
+    "missing": "remeke:blocks/act34_hud_hand_scout",
+    "particle": "remeke:items/bow_standby-export"
+  }
+}

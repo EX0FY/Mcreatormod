@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bow_standby-export",
+        "2": "bow_standby-export",
+        "3": "bow_standby-export",
+        "missing": "act34_hud_hand_scout"
+      },
+      "name": "default"
+    }
+  }
+}
