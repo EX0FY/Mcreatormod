@@ -1,6 +1,16 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Rubypicture",
+      "type": "painting",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubypicture"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -19,6 +29,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.remeke",
     "lockBaseModFiles": false
   },
