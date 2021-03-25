@@ -12,11 +12,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
+import net.mcreator.remeke.procedures.HelldRapiraprocedureProcedure;
 import net.mcreator.remeke.RemekeModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @RemekeModElements.ModElement.Tag
 public class HelldRapiraItem extends RemekeModElements.ModElement {
@@ -58,6 +62,21 @@ public class HelldRapiraItem extends RemekeModElements.ModElement {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent(
 						"\u0420\u0430\u043F\u0438\u0440\u0430 \u0441\u0434\u0435\u043B\u0430\u043D\u043D\u0430\u044F \u0438\u0437 \u0440\u0435\u0434\u043A\u043E\u0433\u043E \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u0430"));
+			}
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				World world = entity.world;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					HelldRapiraprocedureProcedure.executeProcedure($_dependencies);
+				}
+				return retval;
 			}
 		}.setRegistryName("helld_rapira"));
 	}

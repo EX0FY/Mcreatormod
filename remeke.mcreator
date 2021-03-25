@@ -45,6 +45,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helld_rapira"
+    },
+    {
+      "name": "HelldRapiraprocedure",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helld_rapiraprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

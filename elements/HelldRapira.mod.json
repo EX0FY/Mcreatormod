@@ -23,6 +23,9 @@
     "hasGlow": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "HelldRapiraprocedure"
+    }
   }
 }
