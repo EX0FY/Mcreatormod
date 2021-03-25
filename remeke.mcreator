@@ -9,6 +9,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rubypicture"
+    },
+    {
+      "name": "HelldShark",
+      "type": "painting",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helld_shark"
     }
   ],
   "variable_elements": [],
