@@ -137,16 +137,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "grindstone.png",
-          "use1Xscale": false,
-          "name": "grindstone.png",
-          "x": 64,
-          "y": 30
-        }
-      },
-      {
         "type": "outputslot",
         "data": {
           "id": 9,
@@ -155,6 +145,16 @@
           "name": "Slot #9",
           "x": 214,
           "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grindstone.png",
+          "use1Xscale": false,
+          "name": "grindstone.png",
+          "x": 64,
+          "y": 30
         }
       },
       {
