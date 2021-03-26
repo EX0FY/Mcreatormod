@@ -139,7 +139,7 @@ public class WorkbenchmodGUIGui extends RemekeModElements.ModElement {
 			}));
 			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 56) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 89, 38) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 93, 37) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -337,7 +337,7 @@ public class WorkbenchmodGUIGui extends RemekeModElements.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("remeke:textures/grindstone.png"));
-			this.blit(this.guiLeft + -61, this.guiTop + -7, 0, 0, 256, 256, 256, 256);
+			this.blit(this.guiLeft + -60, this.guiTop + -9, 0, 0, 256, 256, 256, 256);
 		}
 
 		@Override

@@ -143,8 +143,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #9",
-          "x": 214,
-          "y": 74
+          "x": 218,
+          "y": 73
         }
       },
       {
@@ -153,8 +153,8 @@
           "image": "grindstone.png",
           "use1Xscale": false,
           "name": "grindstone.png",
-          "x": 64,
-          "y": 30
+          "x": 65,
+          "y": 28
         }
       },
       {
