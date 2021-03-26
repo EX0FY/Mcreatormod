@@ -212,6 +212,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "vkladka"
+    },
+    {
+      "name": "Enderiumsword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderiumsword"
+    },
+    {
+      "name": "Kraftynakamiennomvierstakie",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kraftynakamiennomvierstakie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -238,6 +264,7 @@
       "block.grandcraft.enderiumore": "Руда эндериума",
       "block.remeke.enderiumore": "Руда эндериума",
       "block.remeke.workbenchmod": "Каменный верстак",
+      "item.remeke.enderiumsword": "Меч из эндериума",
       "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
       "item.remeke.endpalka": "Палка из эндериума"
     }

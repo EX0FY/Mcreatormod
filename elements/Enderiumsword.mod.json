@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "e",
+    "customModelName": "Normal",
+    "name": "Меч из эндериума",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Vkladka"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 9.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Enderiumingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

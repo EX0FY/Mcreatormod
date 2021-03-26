@@ -35,6 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.remeke.procedures.KraftynakamiennomvierstakieProcedure;
 import net.mcreator.remeke.RemekeModElements;
 import net.mcreator.remeke.RemekeMod;
 
@@ -461,6 +462,13 @@ public class WorkbenchmodGUIGui extends RemekeModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				KraftynakamiennomvierstakieProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
