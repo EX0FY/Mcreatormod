@@ -185,6 +185,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "helld_noz"
+    },
+    {
+      "name": "Rukzak",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rukzak"
+    },
+    {
+      "name": "Rukzakgui",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rukzakgui"
     }
   ],
   "variable_elements": [],
@@ -201,6 +219,7 @@
       "advancements.helldoredostizhenie.title": "Красный осколок!",
       "item.remeke.helld_noz": "Нож из осколка хеллдериума",
       "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
+      "item.remeke.rukzak": "Рюкзак",
       "item.remeke.enderiumingot": "Слиток Эндериума",
       "item.remeke.helldshard": "Осколок хеллдериума",
       "item.grandcraft.helld_luk": "Лук из хеллдериума",
