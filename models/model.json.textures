@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "prismarine_shard-export-export",
+        "2": "act34_hud_hand_scout"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "remeke:blocks/netherrack",
-    "up": "remeke:blocks/netherrack",
-    "north": "remeke:blocks/netherrack",
-    "east": "remeke:blocks/netherrack",
-    "south": "remeke:blocks/netherrack",
-    "west": "remeke:blocks/netherrack",
-    "particle": "remeke:blocks/netherrack"
+    "down": "remeke:blocks/netherrack-export",
+    "up": "remeke:blocks/netherrack-export",
+    "north": "remeke:blocks/netherrack-export",
+    "east": "remeke:blocks/netherrack-export",
+    "south": "remeke:blocks/netherrack-export",
+    "west": "remeke:blocks/netherrack-export",
+    "particle": "remeke:blocks/netherrack-export"
   }
 }

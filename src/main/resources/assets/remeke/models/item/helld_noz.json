@@ -1,0 +1,8 @@
+{
+  "parent": "remeke:custom/model",
+  "textures": {
+    "1": "remeke:blocks/prismarine_shard-export-export",
+    "2": "remeke:blocks/act34_hud_hand_scout",
+    "particle": "remeke:items/prismarine_shard-export-export"
+  }
+}
