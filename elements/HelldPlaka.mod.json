@@ -8,7 +8,7 @@
     "name": "Палка из хеллдериума(железа)",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Vkladka"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -8,7 +8,7 @@
     "name": "Слиток Эндериума",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Vkladka"
     },
     "stackSize": 64,
     "enchantability": 0,

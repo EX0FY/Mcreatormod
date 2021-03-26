@@ -1,9 +1,10 @@
 {
   "block.remeke.helldore": "Руда хеллдериума",
   "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
-  "item.remeke.food": "Bubble cum",
+  "item.remeke.food": " Bubble cum",
   "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
   "item.remeke.helld_luk": "Лук из хеллдериума",
+  "itemGroup.tabvkladka": "Vkladka",
   "item.grandcraft.helldshard": "Осколок хеллдериума",
   "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
   "advancements.helldoredostizhenie.title": "Красный осколок!",

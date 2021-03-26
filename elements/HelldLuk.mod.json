@@ -11,7 +11,7 @@
       "делает все стрелы огнеными."
     ],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Vkladka"
     },
     "stackSize": 1,
     "ammoItem": {

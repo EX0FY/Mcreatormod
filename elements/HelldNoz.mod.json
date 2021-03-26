@@ -10,7 +10,7 @@
       "Довольно простое оружие..."
     ],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Vkladka"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

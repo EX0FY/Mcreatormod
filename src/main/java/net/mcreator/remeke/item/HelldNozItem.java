@@ -9,11 +9,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.client.util.ITooltipFlag;
 
+import net.mcreator.remeke.itemgroup.VkladkaItemGroup;
 import net.mcreator.remeke.RemekeModElements;
 
 import java.util.List;
@@ -52,7 +52,7 @@ public class HelldNozItem extends RemekeModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(HelldshardItem.block, (int) (1)));
 			}
-		}, 3, -1.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -1.4f, new Item.Properties().group(VkladkaItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
