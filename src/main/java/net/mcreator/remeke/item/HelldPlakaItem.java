@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.remeke.itemgroup.TabHelldItemGroup;
 import net.mcreator.remeke.RemekeModElements;
 
 import java.util.List;
@@ -31,7 +31,7 @@ public class HelldPlakaItem extends RemekeModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabHelldItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("helld_plaka");
 		}
 

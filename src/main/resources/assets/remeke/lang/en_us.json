@@ -5,7 +5,6 @@
   "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
   "item.remeke.helld_luk": "Лук из хеллдериума",
   "item.grandcraft.helldshard": "Осколок хеллдериума",
-  "itemGroup.tabtab_helld": "Hellderium",
   "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
   "advancements.helldoredostizhenie.title": "Красный осколок!",
   "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
@@ -16,5 +15,7 @@
   "block.grandcraft.helldore": "Руда хеллдериума",
   "block.grandcraft.enderiumore": "Руда эндериума",
   "block.remeke.enderiumore": "Руда эндериума",
-  "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
+  "block.remeke.workbenchmod": "Каменный верстак",
+  "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
+  "item.remeke.endpalka": "Палка из эндериума"
 }

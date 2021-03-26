@@ -2,24 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "HelldShark",
-      "type": "painting",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "helld_shark"
-    },
-    {
-      "name": "TabHelld",
-      "type": "tab",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tab_helld"
-    },
-    {
       "name": "HelldPlaka",
       "type": "item",
       "sortid": 4,
@@ -125,6 +107,75 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "food"
+    },
+    {
+      "name": "Endpalka",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endpalka"
+    },
+    {
+      "name": "Workbenchmod",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workbenchmod"
+    },
+    {
+      "name": "Workbenchmodcraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workbenchmodcraft"
+    },
+    {
+      "name": "WorkbenchmodGUI",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workbenchmod_gui"
+    },
+    {
+      "name": "Openworkbenchgui",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openworkbenchgui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -137,7 +188,6 @@
       "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
       "item.remeke.helld_luk": "Лук из хеллдериума",
       "item.grandcraft.helldshard": "Осколок хеллдериума",
-      "itemGroup.tabtab_helld": "Hellderium",
       "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
       "advancements.helldoredostizhenie.title": "Красный осколок!",
       "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
@@ -148,7 +198,9 @@
       "block.grandcraft.helldore": "Руда хеллдериума",
       "block.grandcraft.enderiumore": "Руда эндериума",
       "block.remeke.enderiumore": "Руда эндериума",
-      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)"
+      "block.remeke.workbenchmod": "Каменный верстак",
+      "item.remeke.helld_plaka": "Палка из хеллдериума(железа)",
+      "item.remeke.endpalka": "Палка из эндериума"
     }
   },
   "workspaceSettings": {

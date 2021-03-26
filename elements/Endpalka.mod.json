@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "blaze_rod-export",
+    "texture": "endpalka",
     "customModelName": "Normal",
-    "name": "Палка из хеллдериума(железа)",
-    "rarity": "UNCOMMON",
+    "name": "Палка из эндериума",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "MISC"
     },
@@ -23,9 +23,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Палка из хеллдериумого железа."
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

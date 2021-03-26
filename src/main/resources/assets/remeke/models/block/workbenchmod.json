@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "remeke:blocks/4",
+    "up": "remeke:blocks/2",
+    "north": "remeke:blocks/1",
+    "east": "remeke:blocks/5",
+    "south": "remeke:blocks/1",
+    "west": "remeke:blocks/5",
+    "particle": "remeke:blocks/4"
+  }
+}

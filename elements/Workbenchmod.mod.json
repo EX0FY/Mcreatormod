@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "end_stone",
-    "textureTop": "end_stone",
-    "textureLeft": "end_stone",
-    "textureFront": "end_stone",
-    "textureRight": "end_stone",
-    "textureBack": "end_stone",
+    "texture": "4",
+    "textureTop": "2",
+    "textureLeft": "5",
+    "textureFront": "1",
+    "textureRight": "5",
+    "textureBack": "1",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,14 +24,14 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Руда эндериума",
+    "name": "Каменный верстак",
     "specialInfo": [],
-    "hardness": 1.9999999999999998,
+    "hardness": 3.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "DECORATIONS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -92,17 +92,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "End"
-    ],
+    "onRightClicked": {
+      "name": "Openworkbenchgui"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.END_STONE"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
