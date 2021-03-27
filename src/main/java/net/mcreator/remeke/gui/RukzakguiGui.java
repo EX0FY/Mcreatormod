@@ -382,7 +382,7 @@ public class RukzakguiGui extends RemekeModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("\u0420\u044E\u043A\u0437\u0430\u043A", 6, 3, -12829636);
+			this.font.drawString("\u0420\u044E\u043A\u0437\u0430\u043A", 6, 4, -12829636);
 		}
 
 		@Override

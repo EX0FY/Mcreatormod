@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "iron_helmet-export",
+    "enableBody": true,
+    "textureBody": "iron_chestplate-export",
+    "enableLeggings": true,
+    "textureLeggings": "iron_leggings-export",
+    "enableBoots": true,
+    "textureBoots": "iron_boots-export",
+    "creativeTab": {
+      "value": "CUSTOM:Vkladka"
+    },
+    "armorTextureFile": "11_",
+    "helmetName": "Шлем из хеллдериумного железа",
+    "bodyName": "Кираса из хеллдериумного железа",
+    "leggingsName": "Поножи из хеллдериумного железа",
+    "bootsName": "Ботинки из хеллдериумного железа",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 30,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Heldironingot"
+      }
+    ]
+  }
+}

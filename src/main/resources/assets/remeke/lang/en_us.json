@@ -3,6 +3,7 @@
   "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
   "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
   "item.remeke.helld_luk": "Лук из хеллдериума",
+  "item.remeke.helldironarmor_boots": "Ботинки из хеллдериумного железа",
   "item.remeke.rukzak": "Рюкзак",
   "item.remeke.enderiumingot": "Слиток Эндериума",
   "block.remeke.enderiumore": "Руда эндериума",
@@ -14,14 +15,17 @@
   "itemGroup.tabvkladka": "Vkladka",
   "item.grandcraft.helldshard": "Осколок хеллдериума",
   "advancements.helldoredostizhenie.descr": "Добудте осколок хеллдериума.",
+  "item.remeke.helldironarmor_helmet": "Шлем из хеллдериумного железа",
   "advancements.helldoredostizhenie.title": "Красный осколок!",
   "item.remeke.helld_noz": "Нож из осколка хеллдериума",
   "item.grandcraft.helld_rapira": "Рапира из чистого хеллдериума",
+  "item.remeke.helldironarmor_chestplate": "Кираса из хеллдериумного железа",
   "item.remeke.helldshard": "Осколок хеллдериума",
   "item.grandcraft.helld_luk": "Лук из хеллдериума",
   "item.grandcraft.enderiumingot": "Слиток Эндериума",
   "block.grandcraft.enderiumore": "Руда эндериума",
   "block.grandcraft.helldore": "Руда хеллдериума",
   "block.remeke.workbenchmod": "Каменный верстак",
-  "item.remeke.heldironingot": "Слиток зараженного хеллдериуом железа"
+  "item.remeke.heldironingot": "Слиток зараженного хеллдериуом железа",
+  "item.remeke.helldironarmor_leggings": "Поножи из хеллдериумного железа"
 }
