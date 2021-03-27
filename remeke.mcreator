@@ -280,8 +280,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
       "block.remeke.helldore": "Руда хеллдериума",
+      "item.remeke.helld_rapira": "Рапира из чистого хеллдериума",
       "item.grandcraft.helld_plaka": "Палка из хеллдериума(железа)",
       "item.remeke.helld_luk": "Лук из хеллдериума",
       "item.remeke.rukzak": "Рюкзак",
