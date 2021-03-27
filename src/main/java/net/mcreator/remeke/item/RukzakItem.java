@@ -158,7 +158,7 @@ public class RukzakItem extends RemekeModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(9) {
+			return new ItemStackHandler(27) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;
