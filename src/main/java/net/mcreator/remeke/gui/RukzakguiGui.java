@@ -81,7 +81,7 @@ public class RukzakguiGui extends RemekeModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(9);
+			this.internal = new ItemStackHandler(27);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -137,6 +137,42 @@ public class RukzakguiGui extends RemekeModElements.ModElement {
 			}));
 			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 50) {
 			}));
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 32) {
+			}));
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 32) {
+			}));
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 32) {
+			}));
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 32) {
+			}));
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 32) {
+			}));
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 32) {
+			}));
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 32) {
+			}));
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 32) {
+			}));
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 32) {
+			}));
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 14) {
+			}));
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 14) {
+			}));
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 43, 14) {
+			}));
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 61, 14) {
+			}));
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 79, 14) {
+			}));
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 14) {
+			}));
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 14) {
+			}));
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 14) {
+			}));
+			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 14) {
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -162,18 +198,18 @@ public class RukzakguiGui extends RemekeModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 9) {
-					if (!this.mergeItemStack(itemstack1, 9, this.inventorySlots.size(), true)) {
+				if (index < 27) {
+					if (!this.mergeItemStack(itemstack1, 27, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 9, false)) {
-					if (index < 9 + 27) {
-						if (!this.mergeItemStack(itemstack1, 9 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 27, false)) {
+					if (index < 27 + 27) {
+						if (!this.mergeItemStack(itemstack1, 27 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 9, 9 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 27, 27 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -346,7 +382,7 @@ public class RukzakguiGui extends RemekeModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("\u0420\u044E\u043A\u0437\u0430\u043A", 7, 29, -12829636);
+			this.font.drawString("\u0420\u044E\u043A\u0437\u0430\u043A", 6, 3, -12829636);
 		}
 
 		@Override

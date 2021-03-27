@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "remeke:blocks/iron_ore-export",
+    "up": "remeke:blocks/iron_ore-export",
+    "north": "remeke:blocks/iron_ore-export",
+    "east": "remeke:blocks/iron_ore-export",
+    "south": "remeke:blocks/iron_ore-export",
+    "west": "remeke:blocks/iron_ore-export",
+    "particle": "remeke:blocks/iron_ore-export"
+  }
+}
