@@ -196,15 +196,6 @@
       "registry_name": "rukzak"
     },
     {
-      "name": "Rukzakgui",
-      "type": "gui",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rukzakgui"
-    },
-    {
       "name": "Vkladka",
       "type": "tab",
       "sortid": 23,
@@ -274,6 +265,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heldironingotrecipe"
+    },
+    {
+      "name": "Rukzakgui",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rukzakgui"
     }
   ],
   "variable_elements": [],
