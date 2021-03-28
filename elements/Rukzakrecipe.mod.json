@@ -28,13 +28,13 @@
         "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.STRING"
       },
       {
         "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.STRING"
       }
     ],
     "recipeReturnStack": {
